@@ -1,6 +1,7 @@
 url: ''
-baseurl: ''
-title: 'Jekyllwind'
+baseurl: '/'
+title: 'LPB.DEV'
+description: "Web development agency specializing in Ruby On Rails and Full Stack Web Development"
 
 plugins:
   - jekyll-postcss
