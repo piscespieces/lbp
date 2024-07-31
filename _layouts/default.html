@@ -4,11 +4,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>{{ page.title }} - {{ site.title }}</title>
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
-    <script src="{{ site.baseurl }}/assets/js/p5.js"></script>
+    <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css">
+    <script src="{{ site.url }}{{ site.baseurl }}/assets/js/p5.js"></script>
   </head>
   <body class="text-gray bg-gray-dark">
     {{ content }}
-    <script src="{{ site.baseurl }}/assets/js/index.js"></script>
+    <script src="{{ site.url }}{{ site.baseurl }}/assets/js/index.js"></script>
   </body>
 </html>
